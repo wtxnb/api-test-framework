@@ -1,0 +1,7 @@
+# 预发/生产验证环境（示例，按需修改）
+base_url: https://your-api.example.com
+timeout: 15
+headers:
+  Accept: application/json
+  Content-Type: application/json
+  # Authorization: Bearer ${TOKEN}  # 真实项目可用环境变量注入
