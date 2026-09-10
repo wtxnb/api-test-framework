@@ -1,0 +1,7 @@
+# 开发/演示环境：使用公开可访问的 JSONPlaceholder 作为被测对象
+# 真实项目中替换为你们的测试环境地址即可
+base_url: https://jsonplaceholder.typicode.com
+timeout: 10
+headers:
+  Accept: application/json
+  Content-Type: application/json
